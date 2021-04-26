@@ -1,6 +1,6 @@
-# A lesion-level deep learning approach to predicting enhancing lesions from non-enhanced images in Multiple Sclerosis patients
+# A lesion-level deep learning approach to predict enhancing lesions from non-enhanced MR images in Multiple Sclerosis
 
-This is the code accompanying our manuscript "A lesion-level deep learning approach to predicting enhancing lesions from non-enhanced images in Multiple Sclerosis patients".
+This is the code accompanying our manuscript "A lesion-level deep learning approach to predict enhancing lesions from non-enhanced MR images in Multiple Sclerosis".
 
 > **generate_patches_proval.py** is the script responsible for creating 16x16x16 patches (suitable as input to training / prediction) from 3D NIfTI images (co-registered FLAIR and T1w plus a binary segmentation map). A T1w image with contrast enhancement is optional and only used to gather data on contrast enhancement (50th and 75th percentile of lesion intensity on subtraction [t1c-t1] images).
 
